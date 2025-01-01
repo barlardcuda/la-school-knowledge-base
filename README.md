@@ -2,6 +2,12 @@
 
 An open-source front-end platform for a school knowledge base in Laos, licensed under the MIT License.
 
+## Developer Info
+- **Author:** Barlus Engineer
+- **Contact:** barluscuda@gmail.com
+- **GitHub:** barlardcuda
+- **Facebook:** Barlathcuda Lorfaichong
+
 ## Features
 
 - User-friendly interface for accessing school-related information.
