@@ -1,11 +1,11 @@
 import type { Metadata } from "next"
-import { SiteMeta } from "@/locales/sitemeta"
+import { slc } from "@/locales/slc"
 import "@/styles/globals.css"
 
 
 export const metadata: Metadata = {
-  title: SiteMeta.header.title,
-  description: SiteMeta.header.description,
+  title: slc.header.title,
+  description: slc.header.description,
 }
 
 export default function RootLayout({

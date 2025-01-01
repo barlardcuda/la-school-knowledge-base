@@ -1,8 +1,10 @@
+import HomeNavbar from "@/components/home-navbar"
+
 const RenderHome = () => {
     return (
-        <h1>
-            Hello, LSKB!
-        </h1>
+        <>
+            <HomeNavbar />
+        </>
     )
 }
 
