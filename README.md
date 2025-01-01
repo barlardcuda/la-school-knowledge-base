@@ -31,7 +31,7 @@ Follow these steps to get the project up and running on your local environment.
 
 ### Installation
 
-1. Clone the repository:
+1. Clone and Run the repository:
    ```bash
    git clone https://github.com/barlardcuda/la-school-knowledge-base.git
    cd la-school-knowledge-base
