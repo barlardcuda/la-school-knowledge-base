@@ -1,19 +1,4 @@
-interface slcType {
-    header: {
-        [key: string]: string
-    },
-    body: {
-        [key: string]: string
-    },
-    dropdown: {
-        [key: string]: {
-            label: string,
-            options: string[]
-        }[]
-    }
-}
-
-const slc: slcType = {
+const slc = {
     header: {
         title: "ຄັງຄວາມຮູ້ ສູນ ICT",
         description: "Dev by Barlus Engineer"
@@ -39,7 +24,11 @@ const slc: slcType = {
                 label: "ອຶ່ນໆ",
                 options: ["ພາສາລາວ", "ຄະນິດສາດ", "ຟີຊິກ", "ຊີວະ"]
             }
-        ]
+        ],
+        search: {
+            label: "ຄົ້ນຫາດ້ວຍ",
+            options: ["ຊື່ຜູ້ຂຽນ", "ຫົວເລື່ອງ", "ເນື້ອໃນ", "ວັນເວລາ"]
+        }
     }
 }
 

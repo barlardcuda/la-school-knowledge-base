@@ -42,7 +42,7 @@ const HomeNavbar: React.FC<Props> = ({ className }) => {
                                 {item.label}
                             </span>
                             {item.options.length > 0 && openDropdown === index && (
-                                <ul className="absolute top-full left-0 bg-white shadow-md rounded-md mt-2 py-2 w-40">
+                                <ul className="absolute top-full -right-6 bg-white shadow-md rounded-md mt-2 py-2 w-40">
                                     {item.options.map((option, optionIndex) => (
                                         <li
                                             key={optionIndex}
